@@ -11,5 +11,5 @@ def arrange(loose):
 			for b3 in loose:
 				if b1!=b2 and b2!=b3 and b1!=b3:
 					i += 1
-					print "%d. %d%d%d" % (i, b1, b2, b3)
+					print("%d. %d%d%d" % (i, b1, b2, b3))
 arrange([1,2,3,4])
